@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 100%;
+    position: fixed;
+
+    ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px 20px;
+
+        .links,
+        a {
+            color: white;
+            position: relative;
+            padding: 5px 0;
+            text-decoration: none;
+
+            &:hover{
+                color:#9953d3;
+                border-bottom: 1px solid #9953d3;
+            }
+        }
+    }
+
+    .link2 a {
+        font-size: 25px;
+    }
+}
+
+
+

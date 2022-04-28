@@ -1,0 +1,68 @@
+.projects {
+    height: auto;
+    background-color: rgb(35, 35, 92);
+    background-image: url('../media/aboutbg.jpg');
+    background-position: center;
+    background-size: cover;
+
+
+    #content {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .container {
+            h1 {
+                color: white;
+                font-family: 'Shrikhand', cursive;
+                width: 100%;
+                text-align: center;
+            }
+
+            .projcontent {
+                background-color: rgba(204, 183, 183, 0.233);
+                padding: 20px;
+                border-radius: 10px;
+                margin-top: 10px;
+
+                h3 {
+                    color: white;
+                }
+
+                p {
+                    color: gray;
+                }
+
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                    margin-bottom: 10px;
+                }
+
+                button {
+                    padding: 5px;
+                    width: 50%;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                    border: none;
+                    transition: all .4s ease-in-out;
+                    background-size: 152% 100%;
+                    background: #9953d3;
+                    border: 2px solid #9953d3;
+                    color: white;
+
+                    &:hover {
+                        background: transparent;
+                        border-color: #9953d3;
+                        color: #9953d3;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+}
