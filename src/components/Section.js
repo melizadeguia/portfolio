@@ -12,7 +12,7 @@ const Section = () => {
                     muted
                     autoPlay={"autoplay"}
                     preLoad="auto"
-                    loop class="video"></video>
+                    loop className="video"></video>
 
 
                 <div class="content">
