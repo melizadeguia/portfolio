@@ -47,6 +47,22 @@
             ul {
                 list-style: none;
                 display: flex;
+                padding: 10px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .area {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(204, 183, 183, 0.315);
+            border-radius: 10px;
+            margin-top: 5px;
+            .png {
+                width: 300px;
 
                 img {
                     width: 100%;

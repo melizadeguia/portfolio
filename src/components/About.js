@@ -7,6 +7,8 @@ import Bootstrap from '../media/bootstrap.png';
 import JsLogo from '../media/js.png';
 import ReactLogo from '../media/react.png';
 import Profile from '../media/profilepic.jpg';
+import MySql from '../media/mysql.png';
+import about from '../media/about.png';
 import DeGuia_MelizaCV from '../media/DEGUIA_meliza.pdf';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
@@ -29,17 +31,25 @@ const About = () => {
           <div className="container-fluid" id='info'>
             <div className="row">
               <div className="col-sm">
-                <div class="tech">
-                  <div>
-                  <ul>
-                    <li><img src={Html} alt="html logo" /></li>
-                    <li><img src={Css} alt="css logo" /></li>
-                    <li><img src={Sass} alt="sass logo" /></li>
-                    <li><img src={Bootstrap} alt="bootstrap logo" /></li>
-                    <li><img src={JsLogo} alt="javascript logo" /></li>
-                    <li><img src={ReactLogo} alt="react js logo" /></li>
-                  </ul>
+                <div>
+                  <div className="tech">
+                    <ul>
+                      <li><img src={Html} alt="html logo" /></li>
+                      <li><img src={Css} alt="css logo" /></li>
+                      <li><img src={Sass} alt="sass logo" /></li>
+                      <li><img src={Bootstrap} alt="bootstrap logo" /></li>
+                      <li><img src={JsLogo} alt="javascript logo" /></li>
+                      <li><img src={ReactLogo} alt="react js logo" /></li>
+                      <li><img src={MySql} alt="MySql logo" /></li>
+                    </ul>
                   </div>
+
+                  <div className='area'>
+                  <div className='png'>
+                    <img src={about} alt="working" />
+                  </div>
+                  </div>
+
                 </div>
               </div>
               <div className="col-sm" id='text'>
@@ -52,6 +62,12 @@ const About = () => {
 
                   <a href={DeGuia_MelizaCV} class="btn" download="DeGuia_MelizaCV"><button>Download CV</button></a>
                 </div>
+              </div>
+            </div>
+
+            <div className='row'>
+              <div className='col-sm'>
+
               </div>
             </div>
           </div>
