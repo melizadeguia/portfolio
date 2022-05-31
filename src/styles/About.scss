@@ -1,121 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Fugaz+One&family=Lilita+One&family=Lobster&family=Open+Sans:wght@300&family=Orelega+One&family=Roboto:wght@100;400&family=Rubik+Glitch&family=Rubik+Mono+One&family=Sansita:wght@700&family=Shrikhand&family=Ultra&display=swap');
-
-#about {
-    height: 100vh;
-    background-image: url('../media/aboutbg.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-    #content {
-        height: 40vh;
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .image{
         display: flex;
-        justify-content: center;
         align-items: center;
-        flex-direction: column;
-        padding: 50px;
-        background-image: url('../media/aboutvid.gif');
-        border-bottom: 1px solid white;
+        justify-content: center;
+       
+        img{
+            width: 50%;
+        }
+        img.framed {
+            box-shadow:
+              -50px -50px 0 -40px #aa6767,
+              50px 50px 0 -40px #000000;
+          }
+    }
 
-        .img {
-            width: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            img {
-                width: 150px;
-                height: 100%;
-                border-radius: 500px;
-            }
+    .aboutdesc{
+        padding: 10px;
+        h1{
+            font-family: 'Chonburi', cursive;
+        }
+        p{
+            font-family: 'Dongle', sans-serif;
+            font-size: 25px;
+            font-weight: 600;
         }
     }
 
-    #info {
-        padding: 20px;
-
-        .tech {
-            padding: 10px;
-            background-color: rgba(204, 183, 183, 0.315);
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+    .btn{
+        padding: 10px;
+        button{
+            border: none;
             border-radius: 10px;
-
-            ul {
-                list-style: none;
-                display: flex;
-                padding: 10px;
-
-                img {
-                    width: 100%;
-                }
+            padding: 20px;
+            background-color: #e4c2c2;
+            color: 	white;
+            
+            &:hover{
+                background-color: #aa6767;
             }
-        }
-
-        .area {
-            display: flex;
-            justify-content: center;
-            background-color: rgba(204, 183, 183, 0.315);
-            border-radius: 10px;
-            margin-top: 5px;
-            .png {
-                width: 300px;
-
-                img {
-                    width: 100%;
-                }
-            }
-        }
-
-
-        #text {
-            .description {
-                padding: 20px;
-                background-color: rgba(204, 183, 183, 0.315);
-                border-radius: 10px;
-
-                h2 {
-                    padding: 10px;
-                    color: white;
-                    font-family: 'Shrikhand', cursive;
-                }
-
-                p {
-                    text-align: justify;
-                    padding: 10px;
-                    font-weight: 600;
-                    color: white;
-                    font-family: Georgia, 'Times New Roman', Times, serif;
-                }
-
-                button {
-                    margin: 10px;
-                    color: #fff;
-                    font-size: 16px;
-                    text-transform: uppercase;
-                    letter-spacing: 2px;
-                    padding: 16px 40px;
-                    border-radius: 500px;
-                    display: inline-block;
-                    font-weight: 500;
-                    transition: all .4s ease-in-out;
-                    background-size: 152% 100%;
-                    background: #9953d3;
-                    border: 2px solid #9953d3;
-
-                    &:hover {
-                        background: transparent;
-                        border-color: #9953d3;
-                        color: #9953d3;
-                    }
-
-                }
-            }
-
-
         }
     }
 }

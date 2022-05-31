@@ -1,0 +1,30 @@
+.banner{
+    height: 80vh;
+    background-image: url(../media/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   .intro{
+       background-color: rgba(0, 0, 0, 0.322);
+       padding: 20px;
+       .name{
+           h1{
+               color: rgba(255, 255, 255, 0.938);
+               font-family: 'Chonburi', cursive;
+               font-size: 60px;
+           }
+       }
+       .desc{
+           margin-top: 50px;
+           p{
+               color: 	#aa6767;
+               font-family: 'Dongle', sans-serif;
+               font-size: 25px;
+           }
+       }
+   }
+}

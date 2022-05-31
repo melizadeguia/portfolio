@@ -1,0 +1,27 @@
+.tech{
+    background-color:#aaaaaa80 ;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title{
+        color: #aa6767;
+        text-align: center;
+        margin: 20px;
+        
+        h1{
+            font-family: 'Chonburi', cursive;
+        }
+    }
+   .techimg{
+       margin-top: 20px;
+        .logo{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            img{
+                width: 50%;
+            }
+        }
+   }
+}

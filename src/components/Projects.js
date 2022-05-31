@@ -1,48 +1,78 @@
 import React from 'react';
-import Header from './Header';
-import Realm from '../media/realm.PNG';
-import LeadTech from '../media/leadtech.PNG';
-import google from '../media/google.PNG';
+import { Container, Row, Col } from 'react-bootstrap';
+import realm from '../media/realm.PNG';
+import leadtech from '../media/leadtech.PNG';
+import luckyg from '../media/luckyg.PNG';
 import '../styles/Projects.scss';
 
 const Projects = () => {
     return (
-        <div className='projects'>
-            <Header />
-            <div id='content'>
-                <div className="container">
-                    <h1>Projects</h1>
-                    <div className="row">
-                        <div className="col-sm">
-                            <div className='projcontent'>
-                                <img src={Realm} alt="" />
-                                <h3>Realm E-magazine</h3>
-                                <p>A home and living e-magazine that focuses on different aspects of home design.</p>
-                                <a href="https://melizadeguia.github.io/realm.html"><button>See More</button></a>
+        <div className='proj'>
+            <Container fluid='sm' >
+                <div className='projects'>
+                    <Row>
+                        <Col>
+                            <div className='title'>
+                                <h1>
+                                    Projects
+                                </h1>
+                            </div>
+                        </Col>
+                    </Row>
 
-                            </div>
-                        </div>
-                        <div className="col-sm">
-                            <div className='projcontent'>
-                                <img src={LeadTech} alt="" />
-                                <h3>Lead Tech Outsourcing</h3>
-                                <p>An Outsourcing company offering Web Development Services</p>
-                                <a href="https://leadtech.netlify.app/?fbclid=IwAR2UMDoH9VamOdeUc4jTgVarTEbU1yrRycuZe-kwDgPb6yxE2DgyaM3qkcQ"><button>See More</button></a>
-                            </div>
-                        </div>
-                        <div className="col-sm">
-                            <div className='projcontent'>
-                                <img src={google} alt="" />
-                                <h3>Google Replica</h3>
-                                <p>A replica of Google's search home page using CSS and display flex</p>
-                                <a href="https://github.com/melizadeguia/google-replica"><button>See More</button></a>
+                    <Row className='m-4'>
+                            <Col sm>
+                                <div className='projimg'>
+                                    <img src={realm} alt='project picture' />
+                                </div>
+                            </Col>
 
+                            <Col sm>
+                                <div className='projdesc rl'>
+                                    <h1>Realm E-Magazine</h1>
+                                    <p>A home and living e-magazine that focuses on interior design. <br /> (Html, CSS)</p>
+                                </div>
+                            </Col>
+                       
+                    </Row>
+
+                    <Row className='m-4'>
+                      
+                        <Col sm>
+                            <div className='projdesc lt'>
+                                <h1>Lead Tech Outsourcing</h1>
+                                <p>An Outsourcing company offering Web Development Services.
+                                    <br />
+                                    (React Js, Bootstrap, CSS)
+                                </p>
                             </div>
-                        </div>
-                    </div>
+                        </Col>
+
+                        <Col sm>
+                            <div className='projimg'>
+                                <img src={leadtech} alt='project picture' />
+                            </div>
+                        </Col>
+                    </Row>
+
+                    <Row className='m-4'>
+                        <Col sm>
+                            <div className='projimg'>
+                                <img src={luckyg} alt='project picture' />
+                            </div>
+                        </Col>
+
+                        <Col sm>
+                            <div className='projdesc lg'>
+                                <h1>Lucky G transport <br/> (Car Rental)</h1>
+                                <p></p>
+                            </div>
+                        </Col>
+                    </Row>
                 </div>
-            </div>
-        </div>
+
+            </Container>
+        </div >
     )
 }
 
