@@ -3,7 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import About from './About';
 import Tech from './Tech';
 import Projects from './Projects';
-import '../styles/FrontPage.scss'
+import Contact1 from './Contact1';
+import '../styles/FrontPage.scss';
+
 
 const FrontPage = () => {
     return (
@@ -30,6 +32,7 @@ const FrontPage = () => {
                 <About/>
                 <Tech/>
                 <Projects/>
+                <Contact1/>
             </div>
         </div>
     )

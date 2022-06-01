@@ -1,0 +1,41 @@
+.contactfp {
+    .contact {
+        .head {
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            text-align: center;
+            h1 {
+                font-family: 'Chonburi', cursive;
+            }
+        }
+
+        .texts{
+            padding: 20px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            height: 40vh;
+            p{
+                font-family: 'Dongle', sans-serif;
+                font-size: 25px;
+            }
+            button{
+                border: none;
+                border-radius: 10px;
+                padding: 20px;
+                background-color: #e4c2c2;
+                &:hover{
+                    background-color: #aa6767;
+                }
+                a{
+                    text-decoration: none;
+                    color: 	white;
+                }
+            }
+        }
+    }
+}
