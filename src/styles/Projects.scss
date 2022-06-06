@@ -1,22 +1,24 @@
 .proj {
-        background-color: rgba(0, 0, 0, 0.89);
-        padding: 10px;
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 10px;
+
     .projects {
-        .title{
+        .title {
             // background-color: #aa6767;
             height: 30vh;
             display: flex;
             justify-content: center;
-            align-items:flex-end;
+            align-items: flex-end;
             margin-bottom: 20px;
-            h1{
+
+            h1 {
                 font-family: 'Chonburi', cursive;
                 color: white;
             }
         }
 
         .projimg {
-        
+
 
             img {
                 width: 100%;
@@ -35,9 +37,26 @@
             h1 {
                 font-family: 'Chonburi', cursive;
             }
-            p{
+
+            p {
                 font-family: 'Dongle', sans-serif;
                 font-size: 25px;
+            }
+
+            button {
+                padding: 10px;
+                border: none;
+                border-radius: 10px;
+                background-color: rgba(0, 0, 0, 0.521);
+                &:hover,
+                :focus {
+                    transform: translateY(-0.25em);
+                }
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
             }
         }
 

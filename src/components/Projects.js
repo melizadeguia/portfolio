@@ -31,6 +31,7 @@ const Projects = () => {
                                 <div className='projdesc rl'>
                                     <h1>Realm E-Magazine</h1>
                                     <p>A home and living e-magazine that focuses on interior design. <br /> (Html, CSS)</p>
+                                    <button><a href='https://melizadeguia.github.io/realm.html'>See More</a></button>
                                 </div>
                             </Col>
                        
@@ -45,6 +46,7 @@ const Projects = () => {
                                     <br />
                                     (React Js, Bootstrap, CSS)
                                 </p>
+                                <button><a href='https://leadtech.netlify.app/'>See More</a></button>
                             </div>
                         </Col>
 
@@ -66,6 +68,7 @@ const Projects = () => {
                             <div className='projdesc lg'>
                                 <h1>Lucky G transport <br/> (Car Rental)</h1>
                                 <p></p>
+                                <button><a href='#'>See More</a></button>
                             </div>
                         </Col>
                     </Row>
