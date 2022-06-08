@@ -68,7 +68,7 @@ const Projects = () => {
                             <div className='projdesc lg'>
                                 <h1>Lucky G transport <br/> (Car Rental)</h1>
                                 <p></p>
-                                <button><a href='#'>See More</a></button>
+                                <button><a href='https://luckyg.netlify.app/'>See More</a></button>
                             </div>
                         </Col>
                     </Row>

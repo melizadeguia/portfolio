@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Profile from '../media/profile.jpg';
-import CV from '../media/DEGUIA_CV.pdf';
 import '../styles/About.scss'
 
 const About = () => {
@@ -22,7 +21,7 @@ const About = () => {
                                 I'm curious, and I enjoy work that challenges me to learn something new and stretch in a different direction."</p>
                         </div>
                         <div className='btn'>
-                            <button><a download={CV}>Download CV</a></button>
+                           <a href='src\media\DEGUIA_CV.pdf' download><button>Download CV</button></a>
                         </div>
                     </Col>
                 </Row>

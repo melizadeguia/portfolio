@@ -12,9 +12,9 @@ const Footer = () => {
             <Container>
                 <Row>
                     <ul>
-                        <li><a href='#'><EmailIcon fontSize='large'/></a></li>
-                        <li><a href='#'><GitHubIcon fontSize='large'/></a></li>
-                        <li><a href='#'><LinkedInIcon fontSize='large'/></a></li>
+                        <li><a href='mailto: melizadeguia98@gmail.com'><EmailIcon fontSize='large'/></a></li>
+                        <li><a href='https://github.com/melizadeguia'><GitHubIcon fontSize='large'/></a></li>
+                        <li><a href='https://www.linkedin.com/in/meliza-de-guia/'><LinkedInIcon fontSize='large'/></a></li>
                     </ul>
                 </Row>
             </Container>
