@@ -17,7 +17,7 @@ const About = () => {
                     <Col sm={6}>
                         <div className='aboutdesc'>
                             <h1>About</h1>
-                            <p>"I'm a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript; dabbling with React JS; and inhaling a wide variety of potentially useless information through a few hundred RSS feeds. I build websites that delight and inform. I do it well, i think...
+                            <p>"I'm a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, JavaScript and Typescript; dabbling with React JS and Angular; and inhaling a wide variety of potentially useless information through a few hundred RSS feeds. I build websites that delight and inform. I do it well, i think...
                                 I'm curious, and I enjoy work that challenges me to learn something new and stretch in a different direction."</p>
                         </div>
                         <div className='btn'>

@@ -8,6 +8,7 @@ import bootstraplogo from '../media/bootstrap.png';
 import sasslogo from '../media/sass.png';
 import mysqllogo from '../media/mysql.png';
 import '../styles/Tech.scss';
+import typescript from '../media/typescript.png';
 
 const Tech = () => {
     return (
@@ -58,6 +59,12 @@ const Tech = () => {
                                     <Col sm>
                                         <div className='logo'>
                                             <img src={mysqllogo} alt='logo'/>
+                                        </div>
+                                    </Col>
+                                    {/* new  */}
+                                    <Col sm>
+                                        <div className='logo'>
+                                            <img src={typescript} alt='logo'/>
                                         </div>
                                     </Col>
                                 </Row>
